@@ -1,0 +1,138 @@
+.uhead {
+  height: 200rpx;
+  width: 100%;
+  background: #cb1c36;
+  border: 0;
+}
+
+.ubackg {
+  height: 200rpx;
+  /* width: 260rpx; */
+}
+
+.utp {
+  height: 380rpx;
+  width: 260rpx;
+  position: relative;
+  top: -182rpx;
+  left: 32%;
+}
+
+.butts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.butts button {
+  background: red;
+  border-radius: 5%;
+}
+
+.reds {
+  background: red;
+}
+
+.book_info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tit {
+  height:160rpx;
+  border-bottom: 1px solid #311c1c;
+}
+
+.titles {
+  text-align: center;
+  /* margin: 4% ; */
+  font-weight: bold;
+}
+
+.titles_ {
+  text-align: center;
+  margin: 2%;
+  font-size: 28rpx;
+}
+
+.option {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top:50prx
+}
+.xing{
+  height: 200rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background: #f7f7f7;
+}
+.beg {
+  background:#EC304C;
+  border-radius: 18%;
+  color: white;
+  height: 86rpx;
+  text-align: center;
+  line-height: 38px;
+  width: 216rpx;
+}
+
+.join {
+  background: #f7f7f7;
+  border-radius: 18%;
+  /* color: white; */
+  height: 86rpx;
+  text-align: center;
+  line-height: 38px;
+  width: 216rpx;
+}
+
+.chapter {
+  font-size: 12px;
+  text-align: center;
+}
+
+.chapter_ {
+  color: #68e0d0;
+}
+
+.catalogue {
+  background: #f7f7f7;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 2% 0;
+  margin-bottom: 60rpx;
+}
+
+.change {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.change_tp {
+  color: red;
+  font-size: 22rpx;
+}
+
+.change_tp image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.book_info{
+  height: 100rpx;
+  line-height: 100rpx;
+
+}
+.usr_tp{
+  width:60rpx;
+  height: 60rpx;
+}
+.usr_tp image{
+   width:100%;
+  height: 100%;
+}
+.show{
+  color: red;
+  /* color: green; */
+}

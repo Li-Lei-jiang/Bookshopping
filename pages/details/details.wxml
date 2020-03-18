@@ -1,0 +1,53 @@
+<block>
+  <view class="uhead"></view>
+  <view class="ubackg">
+    <image src="https://statics.zhuishushenqi.com{{book_Data.cover}}" class="utp"></image>
+  </view>
+  <view class="tit">
+    <view class="titles">{{book_Data.title}}</view>
+    <view class="titles_">{{book_Data.author}}</view>
+  </view>
+  <view class="option">
+    <view class="beg">开始阅读</view>
+    <view class="join">加入书架</view>
+  </view>
+  <!-- <beging  data-book_Data="{{book_Data}}"></beging> -->
+  <view class="xing">
+    <view>星星</view>
+    <view class="chapter">更新至
+      <text class="chapter_">{{book_Data.lastChapter}}</text> </view>
+  </view>
+  <view class="book_info">
+    <view bindtap="getDetails">详情</view>
+    <view bindtap="getEstimate">评价({{evaluate.length}})</view>
+  </view>
+  <!-- 详情 -->
+  <view wx:if="{{count==1}}">{{book_Data.longIntro}}</view>
+  <!-- 评价 -->
+  <view wx:if="{{count==2}}">
+    <view wx:for="{{evaluate}}" wx:key="{{index}}">
+      <view class="usr_tp">
+        <image src="https://statics.zhuishushenqi.com{{item.author.avatar}}"></image>
+      </view>
+      <view>{{item.author.nickname}}</view>
+      <view>{{item.content}}</view>
+    </view>
+  </view>
+  <!-- 目录 -->
+  <view class="catalogue" bindtap="allCatalog">
+    <text bindtap=" catalog"><image src="../../img/目录.png"></image>总目录({{catalog.length}}章)</text>
+    <view >
+      <view wx:for="{{catalog}}" wx:key="{{index}}">
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="change">
+    <view>看过这本书的人还在看</view>
+    <view class="change_tp" bindtap="more">
+      <image src="../../img/新建事件单—刷新.png" style="width:"></image>换一换</view>
+  </view>
+</block>
+
+
+<view class="show:{{flag===true? 'red' : ''}}" bindtap="shows">是洛克菲勒 </view>

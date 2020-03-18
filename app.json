@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/bookrack/bookrack",
+    "pages/bookshopping/bookshopping",
+    "pages/search/search",
+    "pages/help/help",
+    "pages/subclass/subclass",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#CB1C36",
+    "navigationBarTitleText": "小爱小说",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF7F00",
+    "list": [
+      {
+        "pagePath": "pages/bookrack/bookrack",
+        "text": "书架",
+        "iconPath": "./img/书架 (0).png",
+        "selectedIconPath": "./img/书架.png"
+      },
+      {
+        "pagePath": "pages/bookshopping/bookshopping",
+        "text": "书城",
+        "iconPath": "./img/书城0.png",
+        "selectedIconPath": "./img/书城1.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "./img/搜索 大0.png",
+        "selectedIconPath": "./img/搜索 大1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

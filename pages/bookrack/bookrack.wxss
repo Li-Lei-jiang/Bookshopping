@@ -1,0 +1,17 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+  margin: 3% 0;
+}
+.hint{
+  width: 100rpx;
+  text-align: center;
+  border: 1px solid black;
+  margin-right: 16%;
+  border-radius: 19%;
+}
+.right{
+  display: flex;
+  width: 30%;
+}

@@ -1,0 +1,5 @@
+<view class="shop">
+  <view class="text" bindtap="set_classify">分类</view>
+  <view class="text" bindtap="set_sisters">排行</view>
+</view>
+<classify book_classify="{{book_classify}}" count="{{count}}" seniority="{{seniority}}"> </classify>

@@ -1,0 +1,28 @@
+<view class="hot">
+  <viev wx:for="{{typeList}}"  wx:key="typeList" class="classify" >
+    <view class="{{type == id?'_left':'left'}}" data-index="{{index}}"  data-item="{{item}}" bindtap="getindex">{{item.name}}</view>
+  </viev>
+</view>
+<!-- 第二个小类 -->
+<scroll-view scroll-x="true" scroll-with-animation="{{true}}" class="container" scroll-left="{{x}}">
+  <view>
+    <view class=" lateral">{{Minor}}</view>
+    <view wx:for="{{tolerant}}" wx:index="{{index}}" wx:key="{{key}}" data-index="{{index}}" class=" lateral" bindtap="scrollData" data-type="{{item.type}}" data-item="{{item}}">
+      <view>{{item}}</view>
+    </view>
+  </view>
+</scroll-view>
+<!-- 书籍列表 -->
+<view class="book_list">
+  <view wx:for="{{book_list}}" wx:key="{{key}}" wx:index="{{index}}" class="list_B" bindtap="goDetails" data-item="{{item}}">
+    <view class="iamgs"><image src="https://statics.zhuishushenqi.com{{item.cover}}" style="width:100%;height:100%"></image></view>
+    <view class="minute">
+      <view class="titls">{{item.title}}</view>
+      <view class="tits">{{item.author}}</view>
+      <view class="brief">{{item.shortIntro}}</view>
+      <!-- <view wx:for="{{book_list.tags}}" wx:index="{{index}}" wx:key="{{key}}">
+        <view>{{item}}</view>
+      </view> -->
+    </view>
+  </view>
+</view>

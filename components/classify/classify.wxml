@@ -1,0 +1,49 @@
+<view wx:if="{{count==1}}" class="seniority">
+  <view>
+    <view class="age" data-age="{{age}}">男生</view>
+    <view class="booktyles">
+      <view wx:for='{{book_classify.male}}' wx:key='{{index}}' class="man_book">
+        <view class="book_frame" bindtap="goSubclass" data-index="{{index}}" data-item="{{item}}" data-male="male">
+          <view clss="name">{{item.name}}</view>
+          <view class="bookCount">{{item.bookCount}}本</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view class="age">女生</view>
+    <view class="booktyles">
+      <view wx:for='{{book_classify.female}}' wx:key='{{index}}' class="man_book">
+        <view clss="name">{{item.name}}
+          <view class="bookCount">{{item.bookCount}}本</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view class="age">出版</view>
+    <view class="booktyles">
+      <view wx:for='{{book_classify.press}}' wx:key='{{index}}' class="man_book">
+        <view clss="name">{{item.name}}
+          <view class="bookCount">{{item.bookCount}}本</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{count==2}}" class="seniority">
+  <view class="age">男生</view>
+  <view wx:for="{{seniority.male}}" wx:key="{{inded}}" class="Seni_">
+    <view class="Seni_tp">
+      <image src="https://statics.zhuishushenqi.com{{item.cover}}" class="cole"></image>
+    </view>
+    <view class="Seni_text">{{item.title}}</view>
+  </view>
+  <view class="age">女生</view>
+  <view wx:for="{{seniority.female}}" wx:key="{{inded}}" class="Seni_">
+    <view class="Seni_tp">
+      <image src="https://statics.zhuishushenqi.com{{item.cover}}" class="cole"></image>
+    </view>
+    <view class="Seni_text">{{item.title}}</view>
+  </view>
+</view>

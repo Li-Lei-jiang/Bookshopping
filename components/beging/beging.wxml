@@ -1,0 +1,3 @@
+<view>{{count}}</view>
+<view>大哥大哥</view>
+<view>{{book_Data}}</view>

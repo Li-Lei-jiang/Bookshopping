@@ -1,0 +1,13 @@
+<!--pages/bookrack/bookrack.wxml-->
+<view class="head">
+  <view>
+    <image src="../../img/勾.png" style="height:50rpx;width:50rpx"></image>
+  </view>
+  <view class="right">
+    <view class="hint" bindtap="tohint">帮助</view>
+    <view>
+      <image src="../../img/新建事件单—刷新 (1).png" style="height:50rpx;width:50rpx"></image>
+    </view>
+  </view>
+</view>
+<view >主人还没收藏书籍哦，请去书城收藏吧！</view>

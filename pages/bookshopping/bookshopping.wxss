@@ -1,0 +1,16 @@
+.shop {
+  display: flex;
+  justify-content: space-around;
+  background: #f7f7f7;
+}
+
+.text {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.text:hover {
+  border-bottom: 6rpx solid #ec304c;
+}

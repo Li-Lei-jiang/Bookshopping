@@ -1,0 +1,98 @@
+.hot {
+  display: flex;
+  margin-left: 3%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.classify {
+  margin-left: 3%;
+}
+
+.classify:hover {
+  color: red;
+}
+
+/* 第二小类他爹 */
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+/* 他儿子 */
+
+.lateral {
+  display: inline-block;
+  /* margin-left: 3%; */
+  width: 20%;
+  font-size: 30rpx;
+  white-space: normal;
+  text-align: center;
+}
+.left{
+  margin-left: 40rpx;
+  font-size: 26rpx;
+}
+ 
+._left{
+  margin-left: 40rpx;
+  font-size: 26rpx;
+  color: #14a1fd;
+}
+.lateral:hover {
+  color: red;
+}
+
+.book_list {
+  padding: 4%;
+}
+
+.list_B {
+  display: flex;
+  height: 400rpx;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 0 2%;
+  margin: 2% 0;
+} 
+
+.iamgs {
+  height: 380rpx;
+  width: 260rpx;
+}
+
+.minute {
+  flex: 1;
+  margin-left: 6%;
+}
+
+.titls {
+  font-size: 40rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+  padding: 2%;
+}
+
+.tits {
+  width: 50%;
+  font-size: 25prx;
+  color: #a7a7a7;
+  line-height: 50rpx;
+  padding: 2%;
+}
+
+.brief {
+  font-size: 22prx;
+  color: #a7a7a7;
+  height: 200rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 2%;
+}

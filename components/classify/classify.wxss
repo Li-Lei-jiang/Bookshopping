@@ -1,0 +1,53 @@
+.Seni_{
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #F7F7F7;
+  margin-left: 2%
+}
+.age{
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #999999
+}
+.Seni_tp{
+  width: 40rpx;
+  height: 40rpx
+}
+.Seni_text{
+  margin-left:4%
+}
+.cole{
+   width: 100%;
+  height: 100%
+}
+.seniority{
+  padding: 0 3%
+}
+.man_book {
+ width: 29%;
+ height: 100rpx;
+ padding: 2%;
+text-align: center; 
+border: 1rpx solid #F7F7F7;
+}
+.booktyles{
+ display: flex; 
+flex-wrap: wrap ; 
+}
+.name{
+  font-weight: bold
+}
+.bookCount{
+  color:#999999;
+  font-size: 30rpx
+  
+}
+/* .books {
+  text-align: center;
+}
+
+.girls_book {
+  display: flex;
+  flex-wrap: flex;
+} */
